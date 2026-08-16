@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-medieval {
+    font-family: 'MedievalSharp', cursive;
+  }
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(28, 25, 23, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 113, 108, 0.4);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(180, 83, 9, 0.6);
+}
+
+/* Medieval parchment and gold trim styles */
+.parchment-pattern {
+  background-color: #1c1917;
+  background-image: radial-gradient(#292524 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 15px -3px rgba(217, 119, 6, 0.2);
+}
+
+.crimson-border-glow {
+  box-shadow: 0 0 15px -3px rgba(225, 29, 72, 0.25);
+}
+
+.arcane-border-glow {
+  box-shadow: 0 0 15px -3px rgba(147, 51, 234, 0.25);
+}
+
+.emerald-border-glow {
+  box-shadow: 0 0 15px -3px rgba(16, 185, 129, 0.25);
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Medieval Realms: Multi-Species Dynasty Life Simulator",
+  "description": "A comprehensive medieval dynasty and multi-realm life simulator featuring humans, vampires, werewolves, and witches with interactive family trees, cross-realm marriages, province development, vassals, wars, racial laws, and inter-realm trade.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
